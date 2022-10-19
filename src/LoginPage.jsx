@@ -30,11 +30,11 @@ export default function LoginPage() {
           <form>
             <label>Email</label>
             <br /><br />
-            <TextField required type='email' name='email' onChange={saveCredentials} placeholder='enter email' label="Required" />
+            <TextField required type='email' name='email' onChange={saveCredentials} placeholder='enter email' label="email" />
             <br /><br />
             <label>Password</label>
             <br /><br />
-            <TextField required type='password' name='password' onChange={saveCredentials} placeholder='enter password' label="Required" />
+            <TextField required type='password' name='password' onChange={saveCredentials} placeholder='enter password' label="password" />
             <br /><br />
             <Button variant="contained" onClick={(e) => signIn(e)}>Login</Button> <br /> <br />
           </form>
